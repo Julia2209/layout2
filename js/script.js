@@ -55,8 +55,6 @@ $(document).ready(function(){
 	});
 	$(document).on("scroll", onScroll);
 /*--------------Function for scroll menu on page------------------*/
-	 
- 
     $("a[href^=#]").click(function(e){
         e.preventDefault();
  

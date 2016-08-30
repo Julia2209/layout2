@@ -139,7 +139,6 @@ a { color: #616161; }
 button { background-color: transparent; }
 a:hover, a:focus { text-decoration: none; outline: none; }
 a:hover { color: black; }
-
 /*----------Custom Font----------------*/
 p, .carousel-content h3, .contacts .inner-content a { font-family: "OpenSans-Regular" }
 .main-section span, .main-section h4, .contacts span, .contacts h4, .subscribe h6, .about-company button, .menu button, .menu a, .carousel-content h2, .carousel-content button, .subscribe button, .works .about-work-bottom span { font-family: "Montserrat-Regular" }
@@ -169,7 +168,7 @@ nav.carousel-nav { display: table; height: 100%; width: 100%; text-align: center
 .carousel-content h2 { padding-bottom: 22px; font-size: 3em; color: #ffffff; text-transform: uppercase; }
 .carousel-content h3 { padding-bottom: 40px; font-size: 1.8571428em; color: #ffffff; width: 50%; margin: 0 auto; }
 .carousel-content button { font-size: 1.285714285em; color: #ffffff; text-transform: uppercase; padding: 10px 36px; border: 2px solid #ff6e40; margin-bottom: 8px;}
-.carousel-content #h2-2 { display: none; }
+.carousel-content #text-for-carousel-xs { display: none; }
 .active-class { display: table-cell; }
 .left-holder { left: 0px; top: 0px; }
 .left-holder-button { margin-left: 30px; }
@@ -186,7 +185,7 @@ nav.carousel-nav { display: table; height: 100%; width: 100%; text-align: center
 .menu .active, .menu a:hover { color: #ff6e40; }
 .works .list li { padding-top: 20px; padding-left: inherit; padding-right: inherit; height: 100%; }
 .services .list { overflow: hidden; }
-.services .list li { padding-top: 28px; padding-bottom: 3px;}
+.services .list li { padding-top: 27px; padding-bottom: 3px;}
 /*---------Main Content Stile---------*/
 .main-content { margin-top: 72px; }
 .main-section { padding-top: 98px; padding-bottom: 100px; }
@@ -221,7 +220,6 @@ nav.carousel-nav { display: table; height: 100%; width: 100%; text-align: center
 .services .inner-content h5:hover { color: #ff6e40; }
 .scrolltotop { position: fixed; bottom: 83px; right: 0; z-index: 15; border: 2px solid #ff6e40; padding: 6px 9px; color: #ff6e40; font-size: 1.285714em; display: none; }
 .scrolltotop:hover { background: url(../images/backgrounds/bg-color.png) 0 0 repeat; color: #ffffff; }
-
 /*----------Footer Style-------------------*/ 
 footer { padding: 22px 0; color: #757575; }
 .privacy-policy-text { text-align: right; }
@@ -287,8 +285,8 @@ footer { padding: 22px 0; color: #757575; }
 /*----------Styles for desktop < 480px-----------------------*/
 @media only screen and (max-width : 480px) { 
 	body { font-size: 12px; } 
-	#h2-1 { display: none; } 
-	.carousel-content #h2-2 { display: block; } 
+	#text-for-carousel-lg { display: none; } 
+	.carousel-content #text-for-carousel-xs { display: block; } 
 	.carousel { height: 150px; }
 	section p { text-align: left; } 
 	.works p { text-align: center; }
