@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid repellendus fugit ipsam">
+	
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<title>LayOut2</title>
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body  onscroll="stickeHeader()">
+	<a href="#" id="top"></a>
+	<div class="wrapper">
+		<div id="header-sticky-wrapper" class="sticky-wrapper">
+		<header class="mobile-header">
+				<section class="header-content">
+					<div class="container">
+						<div class="row">
+							<h1 class="logo col-lg-5 col-sm-5 col-xs-9">
+								<a href="#" title="layout 2">
+									<img src="images/logo-img.png" alt="layout 2" title="layout 2">
+								</a>
+							</h1>
+							<button class="main-menu-button col-lg-7 col-sm-7 col-xs-3"><i class="fa fa-bars" aria-hidden="true"></i></button>
+							<nav id="mobile-menu-hidden" class="hidden-menu mobile-nav">
+								<ul class="menu">
+									<li ><a href="#home" title="home">About</a></li>
+									<li ><a href="#serv" title="services">Services</a></li>
+									<li ><a href="#gallery" title="gallery">Gallery</a></li>
+									<li ><a href="#team" title="team">Team</a></li>
+									<li ><a href="#cont" title="contacts">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</section>
+			</header>
+			<header class="main-header">
+				<section class="header-content">
+					<div class="container">
+						<div class="row">
+							<h1 class="logo col-lg-3 col-sm-3">
+								<a href="#" title="layout 2">
+									<img src="images/logo-img.png" alt="layout 2" title="layout 2">
+								</a>
+							</h1>
+							<nav class="header-menu col-lg-9 col-sm-9">
+								<ul id="header-general-menu" class="menu">
+									<li ><a href="#home" class="active" title="home">About</a></li>
+									<li ><a href="#serv" title="services">Services</a></li>
+									<li ><a href="#gallery" title="gallery">Gallery</a></li>
+									<li ><a href="#team" title="team">Team</a></li>
+									<li ><a href="#cont" title="contacts">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</section>
+			</header>
+		</div> <!--end header-sticky-wrapper-->
+		<div class="main-content">
+			<section class="carousel">
+				<nav class="carousel-nav">
+					<img src="images/slide1.png" alt="carousel1" id="img-carousel" title="carousel1">
+					<div class="carousel-content active-class" id="carousel-slide1">
+						<h2>Lorem ipsum dolor</h2>
+						<h3>Aenean id ligula aliquam dolor tristique fringilla</h3>
+						<button class="start-now-button">Start Now</button>
+					</div>
+					<div class="carousel-content" id="carousel-slide2">
+						<h2>Lorem ipsum dolor</h2>
+						<h3 id="h2-1">Suspendisse potenti. Cras cursus ex nulla, ac faucibus leo suscipit in. Nulla maximus pellentesque sapien, et tincidunt nisl malesuada feugiat.Aenean id ligula aliquam dolor tristiquea</h3>
+						<h3 id="h2-2">Suspendisse potenti. Cras cursus ex nulla, ac faucibus leo suscipit in. Nulla maximus pellentesque sapien.</h3>
+						<button class="start-now-button">Start Now</button>
+					</div>
+					<div class="left-holder">
+						<div class="left-holder-button" onclick="slide(-1)">
+							<i class="fa fa-chevron-left" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="right-holder" >
+						<div class="right-holder-button" onclick="slide(1)">
+							<i class="fa fa-chevron-right" aria-hidden="true"></i>
+						</div>
+					</div>
+				</nav>
+			</section>
+			<div class="content">
+				<section class="about-company main-section" id="home">
+					<div class="container">
+						<span>Lorem ipsum dolor</span>
+						<h4>About Company</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis dui non nulla fermentum sollicitudin. Nunc dictum finibus dui, in ornare lectus venenatis eget. Sed mollis tellus auctor lorem congue, in tincidunt leo pharetra. Nulla facilisi. Mauris sed justo consequat, pretium sem in, tempor sapien. Vestibulum maximus leo fermentum risus vehicula, nec blandit risus tincidunt. Nulla elementum congue turpis. Aenean id ligula aliquam dolor tristique fringilla. Aenean vel faucibus leo, ac iaculis sem. Suspendisse in erat id leo ultricies euismod eget et ex. Praesent tempus magna justo, a ultrices sem molestie non. Phasellus id mi quis dolor sollicitudin condimentum. Maecenas blandit leo nulla, a convallis ex laoreet vel. Maecenas iaculis massa placerat leo rutrum, et luctus diam sollicitudin. Cras nisl orci, ullamcorper non nisi eu, ultricies facilisis purus.</p>
+						<p>Suspendisse potenti. Cras cursus ex nulla, ac faucibus leo suscipit in. Nulla maximus pellentesque sapien, et tincidunt nisl malesuada feugiat. Cras ac tortor hendrerit, tristique elit sed, placerat justo. Mauris sit amet malesuada nisl, vel tincidunt eros. Cras eget tempus nibh. Mauris rutrum risus at enim sollicitudin, sed posuere lectus suscipit. Morbi velit felis, viverra et quam ut, tincidunt cursus nisl. Phasellus tincidunt, ex bibendum viverra bibendum, mi nisi ultrices elit, laoreet faucibus massa est a massa.</p>
+						<button class="read-more-button">Read More</button>
+					</div>
+				</section>
+
+				<section class="services main-section gray-section" id="serv">
+					<div class="container">
+						<span>Lorem ipsum</span>
+						<h4>Our Services</h4>
+						<div class="row">
+							<ul class="list">
+								<li class="col-lg-4 col-md-4">
+									<div class="wrap-icon">
+										<div class="wrap-inner">
+											<i class="fa fa-users" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="inner-content">
+										<a href="#" title="some service"><h5>Some Servise</h5></a>
+										<div class="description">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quis, repellat. Autem perspiciatis quaerat asperiores explicabo.
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4">
+									<div class="wrap-icon">
+										<div class="wrap-inner">
+											<i class="fa fa-comments" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="inner-content">
+										<a href="#"  title="some service"><h5>Some Servise</h5></a>
+										<div class="description">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quis, repellat. Autem perspiciatis quaerat asperiores explicabo.
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4">
+									<div class="wrap-icon">
+										<div class="wrap-inner">
+											<i class="fa fa-trophy" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="inner-content">
+										<a href="#" title="some service"><h5>Some Servise</h5></a>
+										<div class="description">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quis, repellat. Autem perspiciatis quaerat asperiores explicabo.
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="row">
+							<ul class="list">
+								<li class="col-lg-4 col-md-4">
+									<div class="wrap-icon">
+										<div class="wrap-inner">
+											<i class="fa fa-star" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="inner-content">
+										<a href="#" title="some service"><h5>Some Servise</h5></a>
+										<div class="description">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quis, repellat. Autem perspiciatis quaerat asperiores explicabo.
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4">
+									<div class="wrap-icon">
+										<div class="wrap-inner">
+											<i class="fa fa-plane" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="inner-content">
+										<a href="#" title="some service"><h5>Some Servise</h5></a>
+										<div class="description">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quis, repellat. Autem perspiciatis quaerat asperiores explicabo.
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4">
+									<div class="wrap-icon">
+										<div class="wrap-inner">
+											<i class="fa fa-binoculars" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="inner-content">
+										<a href="#" title="some service"><h5>Some Servise</h5></a>
+										<div class="description">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quis, repellat. Autem perspiciatis quaerat asperiores explicabo.
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				
+				<section class="subscribe">
+				<div class="container">
+					<div class="row">
+						<div class="subscribe-text col-lg-8 col-md-8">
+							<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h6>
+							<p>Cras ac tortor hendrerit, tristique elit sed, placerat justo.</p>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<button class="subscribe-button">Subscribe Now</button>
+						</div>
+					</div>
+				</div>
+				</section>
+
+				<section class="works main-section" id="gallery">
+					<div class="container">
+						<span>Lorem ipsum</span>
+						<h4>Our Works</h4>
+						<div class="row">
+							<ul class="list">
+								<li class="col-lg-4 col-md-4 col-sm-6">
+									<div class="works-container ">
+										<img src="images/work1.png" alt="work1" title="work1">
+										<div class="hover-block-work clearfix">
+											<div class="about-work-top">
+												<a href="#" title="some work"><div class="wrap-icon">
+													<div class="wrap-inner">
+														<i class="fa fa-share-square-o" aria-hidden="true"></i>
+													</div>
+												</div></a>
+											</div>
+											<div class="about-work-bottom">
+												<h5>Ut pretium leo vel</h5>
+												<p>Category Category</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4 col-sm-6">
+									<div class="works-container">
+										<img src="images/work2.png" alt="work2" title="work2">
+										<div class="hover-block-work">
+											<div class="about-work-top">
+												<a href="#" title="some work"><div class="wrap-icon">
+													<div class="wrap-inner">
+														<i class="fa fa-share-square-o" aria-hidden="true"></i>
+													</div>
+												</div></a>
+											</div>
+											<div class="about-work-bottom">
+												<h5>Ut pretium leo vel</h5>
+												<p>Category</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4 col-sm-6">
+									<div class="works-container">
+										<img src="images/work3.png" alt="work3" title="work3">
+										<div class="hover-block-work">
+											<div class="about-work-top">
+												<a href="#" title="some work"><div class="wrap-icon">
+													<div class="wrap-inner">
+														<i class="fa fa-share-square-o" aria-hidden="true"></i>
+													</div>
+												</div></a>
+											</div>
+											<div class="about-work-bottom">
+												<h5>Ut pretium leo vel</h5>
+												<p>Category</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4 col-sm-6">
+									<div class="works-container">
+										<img src="images/work4.png" alt="work4" title="work4">
+										<div class="hover-block-work">
+											<div class="about-work-top">
+												<a href="#" title="some work"><div class="wrap-icon">
+													<div class="wrap-inner">
+														<i class="fa fa-share-square-o" aria-hidden="true"></i>
+													</div>
+												</div></a>
+											</div>
+											<div class="about-work-bottom">
+												<h5>Ut pretium leo vel</h5>
+												<p>Category</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4 col-sm-6">
+									<div class="works-container">
+										<img src="images/work5.png" alt="work5" title="work5">
+										<div class="hover-block-work">
+											<div class="about-work-top">
+												<a href="#" title="some work"><div class="wrap-icon">
+													<div class="wrap-inner">
+														<i class="fa fa-share-square-o" aria-hidden="true"></i>
+													</div>
+												</div></a>
+											</div>
+											<div class="about-work-bottom">
+												<h5>Ut pretium leo vel</h5>
+												<p>Category</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="col-lg-4 col-md-4 col-sm-6">
+									<div class="works-container">
+										<img src="images/work6.png" alt="work6" title="work6">
+										<div class="hover-block-work">
+											<div class="about-work-top">
+												<a href="#" title="some work"><div class="wrap-icon">
+													<div class="wrap-inner">
+														<i class="fa fa-share-square-o" aria-hidden="true"></i>
+													</div>
+												</div></a>
+											</div>
+											<div class="about-work-bottom">
+												<h5>Ut pretium leo vel</h5>
+												<p>Category</p>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section class="contacts gray-section" id="team">
+					<div class="container">
+						<div class="row">
+							<div class="contacts-text col-lg-3">
+								<span>tristique</span>
+								<h4>Contact</h4>
+							</div>
+							<div class="item col-lg-3">
+								<div class="wrap-icon">
+									<div class="wrap-inner">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="inner-content adr">
+									<a href="#" title="address">2619 Old Fort Rd<br>Fort Washington, PA 19034</a>
+								</div>
+							</div>
+							<div class="item col-lg-3">
+								<div class="wrap-icon">
+									<div class="wrap-inner">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="inner-content tel">
+									<a href="#" title="telephone">610-516-0418</a>
+								</div>
+							</div>
+							<div class="item col-lg-3">
+								<div class="wrap-icon">
+									<div class="wrap-inner">
+										<i class="fa fa-at" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="inner-content e-mail">
+									<a href="#" title="e-mail">layout.02@gmail.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div id="map">
+					
+				</div>
+				<footer class="gray-section" id="cont">
+					<div class="container">
+						<div class="row">
+							<div class="copyright col-lg-4 col-md-4 col-sm-12 col-xs-12"><p>Copyright 2016 © Layout.02</p></div>
+							<div class="soc-links col-lg-4 col-md-4 col-sm-12">
+								<ul class="social-networks">
+									<li><a href="#" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#" title="facebook"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#" title="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									<li><a href="#" title="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<div class="privacy-policy-text col-lg-4 col-md-4 col-sm-12 col-xs-12"><p><a href="#" title="privacy policy">Privacy Policy</a> <span>|</span> <a href="#" title="terms conditions">Terms &amp; Conditions</a></p></div>
+						</div>
+					</div>
+				</footer>
+				<!-- Back to top button-->
+				
+			</div> <!--end content-->
+		</div> <!--end main-content -->
+	</div> <!--end wrapper-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM73jjUbNLZ_6nmvGTy6RlmxPZGdjSM_M&callback=initMap" async defer></script>
+	<script src="js/map.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1200px) { .carousel { height: 400px; } .subscribe button { margin-left: 0; margin-top: 20px; } .works .list li { padding: 5px; }}
+@media only screen and (max-width : 992px) { .carousel { height: 300px; } body { font-size: 13px; } .carousel-content h1 { font-size: 2em; } .carousel-content h2 { font-size: 1.5em; } .carousel-content button { font-size: 1em; } .subscribe p, .subscribe h2 { text-align: center; } footer p { text-align: center; padding: 5px 0;} #map { height: 300px; }}
+@media only screen and (max-width : 768px) { .carousel { height: 200px; } .main-header { display: none; } .mobile-header { display: block; } .carousel-content h1, .carousel-content h2 { padding: 7px; } .carousel-content h2 { font-size: 1.2em; } .left-holder-button { margin-left: 0; } .right-holder-button { margin-left: 10px; } .subscribe h2 { font-size: 1.2em }  #map { height: 200px; }}
+@media only screen and (max-width : 642px) { .carousel-content h2 { font-size: 1em; } .carousel-content h1, .carousel-content h2 { padding: 3px; } .carousel-content button { margin-top: 3px; } .left-holder-button, .right-holder-button { padding: 3px 7px; font-size: 1em; } .right-holder-button { margin-left: 23px; } .main-section{ padding: 50px 0; } .social-networks{ display: none; } .subscribe h2 { line-height: 20px; } }
+@media only screen and (max-width : 480px) { #h2-1 { display: none; } .carousel-content #h2-2 { display: block; } .carousel { height: 150px; } body { font-size: 12px; } section p { text-align: left; } .works p { text-align: center; }.carousel-content h1 { font-size: 1.5em; padding-bottom: 0; } .carousel-content button { padding: 3px 15px; } .works .list li { padding: 5px 15px; } #map { height: 150px; }}
+@media only screen and (max-width : 320px) { body, html { max-width: 320px; overflow-x: visible; }.mobile-header img { width: 95%; } .subscribe button { margin-left: 0;  padding: 5px 10px;} .contacts .wrap-icon { width: 30px; height: 30px; } .contacts .fa { font-size: 1em; padding: 0; } .contacts .inner-content a { font-size: 0.8em; } }
+  
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

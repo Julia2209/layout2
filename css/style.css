@@ -1,0 +1,308 @@
+/*-------------font-face--------------------------------------------------------------*/
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat-Bold.woff') format('woff'),
+         url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+         url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+} 
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat-Regular.woff') format('woff'),
+         url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+         url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}  
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.eot');
+    src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold.woff') format('woff'),
+         url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}  
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url('../fonts/OpenSans-BoldItalic.eot');
+    src: url('../fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-BoldItalic.woff') format('woff'),
+         url('../fonts/OpenSans-BoldItalic.ttf') format('truetype'),
+         url('../fonts/OpenSans-BoldItalic.svg#OpenSans-BoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}  
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../fonts/OpenSans-ExtraBold.eot');
+    src: url('../fonts/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-ExtraBold.woff') format('woff'),
+         url('../fonts/OpenSans-ExtraBold.ttf') format('truetype'),
+         url('../fonts/OpenSans-ExtraBold.svg#OpenSans-ExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}  
+@font-face {
+    font-family: 'OpenSans-ExtraBoldItalic';
+    src: url('../fonts/OpenSans-ExtraBoldItalic.eot');
+    src: url('../fonts/OpenSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-ExtraBoldItalic.woff') format('woff'),
+         url('../fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype'),
+         url('../fonts/OpenSans-ExtraBoldItalic.svg#OpenSans-ExtraBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}  
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url('../fonts/OpenSans-Italic.eot');
+    src: url('../fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Italic.woff') format('woff'),
+         url('../fonts/OpenSans-Italic.ttf') format('truetype'),
+         url('../fonts/OpenSans-Italic.svg#OpenSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.eot');
+    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light.woff') format('woff'),
+         url('../fonts/OpenSans-Light.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'OpenSans-LightItalic';
+    src: url('../fonts/OpenSans-LightItalic.eot');
+    src: url('../fonts/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-LightItalic.woff') format('woff'),
+         url('../fonts/OpenSans-LightItalic.ttf') format('truetype'),
+         url('../fonts/OpenSans-LightItalic.svg#OpenSans-LightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular.woff') format('woff'),
+         url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../fonts/OpenSans-Semibold.eot');
+    src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'OpenSans-SemiboldItalic';
+    src: url('../fonts/OpenSans-SemiboldItalic.eot');
+    src: url('../fonts/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-SemiboldItalic.woff') format('woff'),
+         url('../fonts/OpenSans-SemiboldItalic.ttf') format('truetype'),
+         url('../fonts/OpenSans-SemiboldItalic.svg#OpenSans-SemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'Fontawesome-webfont';
+    src: url('../fonts/fontawesome-webfont.eot');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fontawesome-webfont.woff') format('woff'),
+         url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+         url('../fonts/fontawesome-webfont.svg#fontawesome-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+/*---------Reset Style--------------*/
+body, html { margin: 0; padding: 0; outline: none; background-color: white; color: #616161; }
+img { margin: 0; padding: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
+p { padding: 0; margin: 0; } 
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: normal; }
+a { color: #616161; }
+button { background-color: transparent; }
+a:hover, a:focus { text-decoration: none; outline: none; }
+a:hover { color: black; }
+
+/*----------Custom Font----------------*/
+p, .carousel-content h3, .contacts .inner-content a { font-family: "OpenSans-Regular" }
+.main-section span, .main-section h4, .contacts span, .contacts h4, .subscribe h6, .about-company button, .menu button, .menu a, .carousel-content h2, .carousel-content button, .subscribe button, .works .about-work-bottom span { font-family: "Montserrat-Regular" }
+.fa	{ font-family: "Fontawesome-webfont"; }
+/*---------General Style--------------*/
+.wrapper{ width: 100%; position: relative;}
+.content { text-align: center; }
+/*---------Header Styles--------------*/
+.logo {  float: left; padding-left: 17px;}
+.mobile-header { position: absolute; top: 0; left: 0; display: none;}
+.mobile-header .header-content .container { display: block; }
+.mobile-header .main-menu-button { background: transparent; color: #424242; font-size: 3em; border: none; float: right; padding: 0; }
+.mobile-header .main-menu-button i { float: right; }
+.mobile-header .mobile-nav { position: absolute; display: block; top: 30px; right: 0; text-transform: uppercase; font-size: 1.5em; margin: 15px; box-shadow: 0 0 5px #000; margin-top: 35px; }
+.mobile-header .mobile-nav ul li { width: 100%; background: white; float: right; padding-left: 15px; padding-bottom: 5px; }
+.mobile-header .hidden-menu { display: none; }
+.header-content { width: 100%; padding-top: 13px; padding-bottom: 14px; -webkit-height: 72px; height: 72px; position: fixed; top: 0; left: 0; background: url(../images/backgrounds/bg-white.png) 0 0 repeat; z-index: 20; }
+.header-content .container { display: table; height: 100%; }
+.header-content .container .row { display: table; width: 101%; }
+.header-menu { float: right; padding-top: 9px; }
+.header-menu ul { float: right; text-transform: uppercase; padding-top: 4px; margin-right: -16px;}
+#header-general-menu li { padding-left: 18px; }
+.carousel { height: 500px; width: 100%; overflow: hidden; position: relative; }
+nav.carousel-nav { display: table; height: 100%; width: 100%; text-align: center; }
+.carousel img { z-index: 1; position: absolute; width: 100%; height: 100%; }
+.carousel-content { z-index: 2;  vertical-align: middle; position: relative; display: none;}
+.carousel-content h2 { padding-bottom: 22px; font-size: 3em; color: #ffffff; text-transform: uppercase; }
+.carousel-content h3 { padding-bottom: 40px; font-size: 1.8571428em; color: #ffffff; width: 50%; margin: 0 auto; }
+.carousel-content button { font-size: 1.285714285em; color: #ffffff; text-transform: uppercase; padding: 10px 36px; border: 2px solid #ff6e40; margin-bottom: 8px;}
+.carousel-content #h2-2 { display: none; }
+.active-class { display: table-cell; }
+.left-holder { left: 0px; top: 0px; }
+.left-holder-button { margin-left: 30px; }
+.left-holder-button, .right-holder-button { padding: 5px 12px; position: absolute; top: 45.7%; color: #ffffff; z-index: 10; font-size: 1.285714285em; border: 2px solid #ff6e40; }
+.left-holder, .right-holder { position: absolute; text-align: center; height: 100%; width: 50px; background-color: transparent;  }
+.right-holder-button { margin-left: -21px; }
+.right-holder { right: 0px; top: 0px; }
+.right-holder-button:hover, .left-holder-button:hover { cursor: pointer; }
+/*---------List Stile-----------------*/
+.menu li, .social-networks li { display: inline-block; }
+.social-networks li { padding: 0 7px; font-size: 1.14295714em; }
+.social-networks li i:hover { color: #424242; }
+.menu a { font-size: 1.142857142em; }
+.menu .active, .menu a:hover { color: #ff6e40; }
+.works .list li { padding-top: 20px; padding-left: inherit; padding-right: inherit; height: 100%; }
+.services .list { overflow: hidden; }
+.services .list li { padding-top: 28px; padding-bottom: 3px;}
+/*---------Main Content Stile---------*/
+.main-content { margin-top: 72px; }
+.main-section { padding-top: 98px; padding-bottom: 100px; }
+.main-section p { padding-top: 20px; font-size: 1.14285714em;}
+.main-section h4 { padding-bottom: 6px; font-size: 2.14285714em; }
+.main-section span { padding-bottom: 4px; padding-top: 0; color: #bdbdbd; font-size: 1.14285714em; }
+.services { padding-bottom: 94px; }
+.works h4 { padding-bottom: 9px; }
+.works .works-container { margin: 0 auto; position: relative; width: 100%; height: 100%; max-width: 380px; max-height: 380px; }
+.works .about-work-top { position: absolute; top: 0; left: 0; width: 100%; max-width: 380px; height: 100%; background: url(../images/backgrounds/bg-dark-gray.png) 0 0 repeat; opacity: 0.7; overflow: hidden; }
+.works .about-work-bottom { position: absolute; bottom: 0; left: 0; width: 100%; max-width: 380px; padding: 28px 0; background: url(../images/backgrounds/bg-gray.png) 0 0 repeat; }
+.works .about-work-bottom h5 { padding-bottom: 8px; color: #ff6e40; text-transform: uppercase; font-size: 1.285714em; margin-right: 10px; }
+.works .about-work-bottom p { line-height: 1; padding: 0; margin-right: 10px; color: #757575; }
+.works .hover-block-work { display: none; }
+.works .works-container:hover .hover-block-work { display: block; }
+.works img { width: 100%; max-width: 380px; }
+.contacts { padding: 39px 0;}
+.contacts h4 { font-size: 2.14285714em; }
+.contacts span { padding: 7px 0 5px 0; color: #bdbdbd; font-size: 1.14285714em; }
+.contacts .fa { font-size: 2.1em; }
+.contacts .item { display: table; height: 100%; }
+.contacts .inner-content { display: table-cell; vertical-align: middle; word-wrap: break-word;}
+.contacts a:hover { color: #ff6e40; }
+.subscribe-text, .contacts-text { text-align: left; padding-left: 17px; }
+.subscribe { padding: 39px 0 37px 0; }
+.subscribe h6 { font-size: 1.5714285714em; color: #ffffff; line-height: 32px;}
+.subscribe p, .social-networks i { color: #bdbdbd; font-size: 1.14285714em; }
+.about-company button {  padding: 13px 48px; margin-top: 30px; text-transform: uppercase; font-size: 1em; border: 2px solid #212121; color: #212121; }
+.about-company button:hover { background: url(../images/backgrounds/bg-21.png) 0 0 repeat; color: #ffffff; }
+.subscribe button { padding: 13px 76px; margin-left: 89px; margin-top: 1px; text-transform: uppercase; font-size: 1em; border: 2px solid #ff6e40; color: #ffffff; }
+.subscribe button:hover, .carousel-content button:hover { background: url(../images/backgrounds/bg-color.png) 0 0 repeat; }
+.services .inner-content h5:hover { color: #ff6e40; }
+.scrolltotop { position: fixed; bottom: 83px; right: 0; z-index: 15; border: 2px solid #ff6e40; padding: 6px 9px; color: #ff6e40; font-size: 1.285714em; display: none; }
+.scrolltotop:hover { background: url(../images/backgrounds/bg-color.png) 0 0 repeat; color: #ffffff; }
+
+/*----------Footer Style-------------------*/ 
+footer { padding: 22px 0; color: #757575; }
+.privacy-policy-text { text-align: right; }
+.privacy-policy-text span { padding: 0 4px; color: #ff6e40; }
+.privacy-policy-text a:hover { color: #ff6e40; }
+.copyright { text-align: left; } 
+.main-section span, .main-section h4, .contacts span, .contacts h4, .subscribe h6, .services h5 { text-transform: uppercase; }
+.gray-section { background: url(../images/backgrounds/bg-gray.png) 0 0 repeat; }
+.subscribe { background: url(../images/backgrounds/bg-dark.png) 0 0 repeat; }
+/*---------Map Style------------------*/
+#map { width: 100%; height: 400px; background: url(../images/backgrounds/bg-dark.png) 0 0 repeat; }
+/*---------Icon List Style--------------*/
+.wrap-icon  { margin-top: 2px; text-align: center; position: relative; float: left; height: 80px; width: 80px; background-image: url(../images/content-border-services.png); margin-right: 20px;}
+.wrap-icon .wrap-inner { display: table; width: 100%; height: 100%; text-align: center; }
+.wrap-icon i { display: table-cell; width: 100%; height: 100%; padding-top: 5px; padding-left: 2px; vertical-align: middle; font-size: 3.3em; color: #ff6e40; }
+.inner-content { overflow: hidden; text-align: left; }
+.inner-content h5 { font-size: 1.4em; color: #212121; padding-bottom: 5px; }
+.contacts .wrap-icon, .works .wrap-icon { width: 60px; height: 60px; background: url(../images/backgrounds/bg-color.png) 0 0 repeat; border-radius: 50px; margin-left: -5px; margin-right: 15px; }
+.contacts .wrap-icon i, .works .wrap-icon i { color: #ffffff; }
+.contacts .inner-content a { font-size: 1.14285714em; }
+.contacts .tel, .contacts .e-mail { width: 100%; }
+.works .wrap-icon { position: absolute; top: 29%; left: 41%; }
+.works .wrap-icon i { font-size: 2.7em; }
+/*----------Styles for desktop < 1200px-----------------------*/
+@media only screen and (max-width : 1200px) { 
+	.carousel { height: 400px; } 
+	.subscribe button { margin-left: 0; margin-top: 20px; } 
+	.works .list li { padding: 5px; }
+}
+/*----------Styles for desktop < 992px-----------------------*/
+@media only screen and (max-width : 992px) { 
+	.carousel { height: 300px; } body { font-size: 13px; } 
+	.carousel-content h2 { font-size: 2em; } 
+	.carousel-content h3 { font-size: 1.5em; } 
+	.carousel-content button { font-size: 1em; } 
+	.subscribe p, .subscribe h6 { text-align: center; } 
+	footer p { text-align: center; padding: 5px 0;} 
+	#map { height: 300px; }
+}
+/*----------Styles for desktop < 768px-----------------------*/
+@media only screen and (max-width : 768px) { 
+	.carousel { height: 200px; } 
+	.main-header { display: none; } 
+	.mobile-header { display: block; } 
+	.carousel-content h2, .carousel-content h3 { padding: 7px; } 
+	.carousel-content h3 { font-size: 1.2em; } 
+	.left-holder-button { margin-left: 0; } 
+	.right-holder-button { margin-left: 10px; } 
+	.subscribe h6 { font-size: 1.2em }  
+	#map { height: 200px; }
+}
+/*----------Styles for desktop < 642px-----------------------*/
+@media only screen and (max-width : 642px) { 
+	.carousel-content h3 { font-size: 1em; } 
+	.carousel-content h2, .carousel-content h3 { padding: 3px; } 
+	.carousel-content button { margin-top: 3px; } 
+	.left-holder-button, .right-holder-button { padding: 3px 7px; font-size: 1em; } 
+	.right-holder-button { margin-left: 23px; } 
+	.main-section{ padding: 50px 0; } 
+	.social-networks{ display: none; } 
+	.subscribe h6  { line-height: 20px; } 
+}
+/*----------Styles for desktop < 480px-----------------------*/
+@media only screen and (max-width : 480px) { 
+	body { font-size: 12px; } 
+	#h2-1 { display: none; } 
+	.carousel-content #h2-2 { display: block; } 
+	.carousel { height: 150px; }
+	section p { text-align: left; } 
+	.works p { text-align: center; }
+	.carousel-content h2 { font-size: 1.5em; padding-bottom: 0; } 
+	.carousel-content button { padding: 3px 15px; } 
+	.works .list li { padding: 5px 15px; } 
+	#map { height: 150px; }
+}
+/*----------Styles for desktop < 320px-----------------------*/
+@media only screen and (max-width : 320px) { 
+	body, html { max-width: 320px; overflow-x: visible; }
+	.mobile-header img { width: 95%; } 
+	.subscribe button { margin-left: 0;  padding: 5px 10px;} 
+	.contacts .inner-content a { font-size: 0.8em; } 
+	.contacts .wrap-icon { width: 30px; height: 30px; } 
+	.contacts .fa { font-size: 1em; padding: 0; } 
+}
